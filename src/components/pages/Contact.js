@@ -47,6 +47,7 @@ export default function ContactForm() {
 
   return (
     <div>
+      <h1>Contact</h1>
       <form className="form">
         <input
           value={inputName}
