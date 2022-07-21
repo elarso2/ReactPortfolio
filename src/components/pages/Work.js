@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-
-// github icon code
-// <i class="fa-brands fa-github"></i>
-// linkedin icon code
-// <i class="fa-brands fa-linkedin"></i>
-// spotify icon code
-//<i class="fa-brands fa-spotify"></i>
+import github from "../../assets/icons/github-brands.svg";
 
 export default function Work() {
   return (
@@ -18,7 +12,7 @@ export default function Work() {
             E-Commerce Back End Application
           </h3>
           <a href="https://github.com/elarso2/E-CommerceBackEnd">
-            <i class="fa-brands fa-github"></i>
+            <img src={github} alt="github icon" />
           </a>
         </section>
         <section
@@ -30,13 +24,13 @@ export default function Work() {
             Barbells and Brews
           </h3>
           <a href="https://github.com/SimonaSnap/WorkoutMusicAPI">
-            <i class="fa-brands fa-github"></i>
+            <img src={github} alt="github icon" />
           </a>
         </section>
         <section className="workImg" alt="" src="../../assets/noteTaker.png">
           <h3 href="https://note-taker-elarson.herokuapp.com/">Note Taker</h3>
           <a href="https://github.com/elarso2/NoteTaker">
-            <i class="fa-brands fa-github"></i>
+            <img src={github} alt="github icon" />
           </a>
         </section>
         <section
@@ -48,13 +42,13 @@ export default function Work() {
             Password Generator
           </h3>
           <a href="https://github.com/elarso2/Password-Generator">
-            <i class="fa-brands fa-github"></i>
+            <img src={github} alt="github icon" />
           </a>
         </section>
         <section className="workImg" alt="" src="../../assets/textEditor.png">
           <h3 href="https://ell-text-editor.herokuapp.com/">Text Editor</h3>
           <a href="https://github.com/elarso2/Text-Editor">
-            <i class="fa-brands fa-github"></i>
+            <img src={github} alt="github icon" />
           </a>
         </section>
       </div>
