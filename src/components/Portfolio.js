@@ -3,6 +3,7 @@ import Nav from "./Navigation";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
+import Resume from "./pages/Resume";
 
 export default function Portfolio() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -16,6 +17,9 @@ export default function Portfolio() {
     }
     if (currentPage === "Contact") {
       return <Contact />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
     }
   };
 
