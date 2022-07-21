@@ -39,7 +39,7 @@ export default function ContactForm() {
       setErrorMessage("A message is required.");
       return;
     }
-
+    setErrorMessage("");
     setInputName("");
     setEmail("");
     setMessage("");

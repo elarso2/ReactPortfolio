@@ -2,6 +2,7 @@ import React from "react";
 import github from "../../assets/icons/github-brands.svg";
 import linkedin from "../../assets/icons/linkedin-brands.svg";
 import spotify from "../../assets/icons/spotify-brands.svg";
+import email from "../../assets/icons/envelope-solid.svg";
 
 const Footer = () => {
   return (
@@ -14,6 +15,14 @@ const Footer = () => {
       </a>
       <a href="https://open.spotify.com/user/0pdabbzrnalgkpn4j7ff5nz6i">
         <img src={spotify} alt="spotify icon" />
+      </a>
+      <a>
+        <img
+          href="mailto: larsoneli97@gmail.com"
+          target="_blanck"
+          src={email}
+          alt="email icon"
+        />
       </a>
     </div>
   );
