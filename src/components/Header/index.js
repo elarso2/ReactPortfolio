@@ -1,4 +1,5 @@
 import React from "react";
+import Headshot from "../../assets/headshot.jpg";
 
 const Header = () => {
   return (
@@ -17,11 +18,7 @@ const Header = () => {
         </div>
       </header>
       <section id="subheader">
-        <img
-          class="headshot"
-          alt="author headshot"
-          src="../../assets/headshot.jpg"
-        />
+        <img class="headshot" alt="author headshot" src={Headshot} />
       </section>
     </div>
   );
