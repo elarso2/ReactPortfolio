@@ -7,7 +7,7 @@ import React, { useState } from "react";
 // spotify icon code
 //<i class="fa-brands fa-spotify"></i>
 
-export default function myWork() {
+export default function Work() {
   return (
     <div>
       <h1>My Work</h1>
