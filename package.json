@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/elarso2/ReactPortfolio/issues"
   },
-  "homepage": "https://github.com/elarso2/ReactPortfolio#readme",
+  "homepage": "https://elarso2.github.io/ReactPortfolio/",
   "dependencies": {
     "bootstrap": "^5.1.3",
     "react": "^18.2.0",
