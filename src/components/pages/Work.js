@@ -4,7 +4,7 @@ import barbells from "../../assets/images/barbellsAndBrews.png";
 import ecommerce from "../../assets/images/E-Commerce.PNG";
 import note from "../../assets/images/noteTaker.png";
 import passgen from "../../assets/images/passwordGenerator.png";
-import textEdit from "../../assets/images/textEditor.png";
+import textEdit from "../../assets/images/textEditor.PNG";
 
 export default function Work() {
   return (

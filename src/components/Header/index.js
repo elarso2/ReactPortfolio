@@ -1,18 +1,58 @@
 import React from "react";
 import Headshot from "../../assets/images/headshot.jpg";
 
-const Header = () => {
+function Header({ currentPage, handlePageChange }) {
   return (
     <div>
       <header>
-        <div>
+        <div className="headerDiv">
           <h1>Elizabeth Larson</h1>
           <nav>
             <ul>
-              <a href="#about">About</a>
-              <a href="#work">Work</a>
-              <a href="#contact">Contact</a>
-              <a href="#resume">Resume</a>
+              <li>
+                <a
+                  href="#about"
+                  onClick={() => handlePageChange("About")}
+                  className={
+                    currentPage === "About" ? "nav-link active" : "nav-link"
+                  }
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#work"
+                  onClick={() => handlePageChange("Work")}
+                  className={
+                    currentPage === "Work" ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Work
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  onClick={() => handlePageChange("Contact")}
+                  className={
+                    currentPage === "Contact" ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#resume"
+                  onClick={() => handlePageChange("Resume")}
+                  className={
+                    currentPage === "Resume" ? "nav-link active" : "nav-link"
+                  }
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -22,6 +62,6 @@ const Header = () => {
       </section>
     </div>
   );
-};
+}
 
 export default Header;

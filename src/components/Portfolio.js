@@ -21,6 +21,7 @@ export default function Portfolio() {
     if (currentPage === "Resume") {
       return <Resume />;
     }
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -28,7 +29,7 @@ export default function Portfolio() {
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <main>{renderPage()}</main>
     </div>
   );
 }
