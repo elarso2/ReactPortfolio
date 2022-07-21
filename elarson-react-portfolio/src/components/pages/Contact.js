@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
-function contactForm() {
+export default function contactForm() {
   // State variables and initial values
   const [inputName, setInputName] = useState("");
   const [email, setEmail] = useState("");
@@ -81,5 +81,3 @@ function contactForm() {
     </div>
   );
 }
-
-export default contactForm;
