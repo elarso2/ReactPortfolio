@@ -1,14 +1,22 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.84487ea8.css",
-    "main.js": "/ReactPortfolio/static/js/main.7f5eedf3.js",
+    "main.js": "/ReactPortfolio/static/js/main.1eafccef.js",
+    "static/media/barbellsAndBrews.png": "/ReactPortfolio/static/media/barbellsAndBrews.ca8ca4eddd3b8345bae7.png",
     "static/media/headshot.jpg": "/ReactPortfolio/static/media/headshot.3953f9556eee4fec3412.jpg",
+    "static/media/passwordGenerator.png": "/ReactPortfolio/static/media/passwordGenerator.06849b9629c5045bbfe7.png",
+    "static/media/textEditor.PNG": "/ReactPortfolio/static/media/textEditor.c758ea7c711e4f6bc993.PNG",
+    "static/media/E-Commerce.PNG": "/ReactPortfolio/static/media/E-Commerce.3c27f241dabeb32f098a.PNG",
+    "static/media/noteTaker.png": "/ReactPortfolio/static/media/noteTaker.c5abf028068daf441317.png",
+    "static/media/github-brands.svg": "/ReactPortfolio/static/media/github-brands.833b63e28cadf07403bc81451d30b858.svg",
+    "static/media/spotify-brands.svg": "/ReactPortfolio/static/media/spotify-brands.7f741122f2cab7efe546a7839a913e2e.svg",
     "index.html": "/ReactPortfolio/index.html",
+    "static/media/linkedin-brands.svg": "/ReactPortfolio/static/media/linkedin-brands.f2f7d420f8ec14109e65abad03b5f32c.svg",
     "main.84487ea8.css.map": "/ReactPortfolio/static/css/main.84487ea8.css.map",
-    "main.7f5eedf3.js.map": "/ReactPortfolio/static/js/main.7f5eedf3.js.map"
+    "main.1eafccef.js.map": "/ReactPortfolio/static/js/main.1eafccef.js.map"
   },
   "entrypoints": [
     "static/css/main.84487ea8.css",
-    "static/js/main.7f5eedf3.js"
+    "static/js/main.1eafccef.js"
   ]
 }
